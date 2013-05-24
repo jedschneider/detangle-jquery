@@ -1,0 +1,21 @@
+{
+  "name": "detangle-your-jquery",
+  "version": "0.0.0",
+  "description": "a tutorial for .net magazine",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": "",
+  "author": "Jed Schneider",
+  "license": "BSD",
+  "dependencies": {
+    "jquery-browser": "~2.0.0-1"
+  },
+  "devDependencies": {
+    "coffee-script": "~1.6.2",
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.4.3"
+  }
+}
