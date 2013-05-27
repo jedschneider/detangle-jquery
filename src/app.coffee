@@ -1,3 +1,11 @@
+class window.RowView
+  constructor: (el)->
+    @el = $(el)
+    @el.find('.btn').on 'click',  @handleClick
+
+  handleClick: (e)->
+    console.log "got here", e
+
 $ ->
   # Example 1: plain jQuery
   playMessage = (e, message)->
@@ -8,3 +16,6 @@ $ ->
     e.preventDefault()
     message = "<p>clicked X = #{e.pageX}, Y = #{e.pageY}</p>"
     playMessage(e, message)
+
+  # Example 2: the basic view class
+  example2 = new window.RowView($('#example_2'))
