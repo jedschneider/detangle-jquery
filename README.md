@@ -21,7 +21,7 @@ grunt
 ## Getting to the code samples
 
 I'm using git tags to point you to specific snapshots of the project.
-You can see the tags by running `git tags` and checkout a specific tag
+You can see the tags by running `git tag` and checkout a specific tag
 with `git checkout <tag>`. Or, browse the source with the branch
 dropdown in the github GUI.
 
